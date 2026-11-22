@@ -1,0 +1,27 @@
+/* Round 43: concise content, 45: representative's IP records. */
+#slide-02 .cards .card{min-height:152px;justify-content:center}
+#slide-06 .p20-loop{height:360px}
+#slide-06 .p20-return{top:24px}
+#slide-06 .p20-loop-label{top:145px}
+#slide-06 .p35-evidence img{height:312px}
+#slide-07 .cards figure .media-frame{width:min(100%,360px)!important}
+#slide-07 .layers .layer{padding:16px 0;grid-template-columns:190px 1fr}
+#slide-07 .layers b{font-size:24px}
+#slide-07 .layers p{font-size:21px}
+#slide-09 .ag-body{transform:translateY(-32px)}
+#slide-11 .ag-body{transform:none;justify-content:center}
+#slide-11 .ag-body>table th,#slide-11 .ag-body>table td{padding:16px 8px!important}
+#slide-12 .events-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 32px}
+#slide-12 .events-grid figure{grid-column:auto;justify-items:center!important}
+#slide-12 .events-grid .media-frame{height:304px!important;margin:auto!important}
+#slide-12 .events-grid figure:first-child .media-frame,#slide-12 .events-grid figure:last-child .media-frame{margin-inline:auto!important}
+#slide-13 .ip-body{justify-content:center!important;font-family:Paperlogy20,Paperlogy,sans-serif}
+#slide-13 .ip-table{width:100%;table-layout:fixed;border-collapse:collapse;font-size:20px;line-height:1.2}
+#slide-13 .ip-table th,#slide-13 .ip-table td{padding:8px!important;vertical-align:middle}
+#slide-13 .ip-table td:nth-child(2){overflow-wrap:anywhere}
+#slide-13 .ip-new{background:#e5f2d4;color:#234d00;font-weight:700}
+#slide-13 .ip-history{color:#455341}
+#slide-13 .ip-source{font-size:20px;color:#53604d;margin:0}
+#slide-13 .ip-jsbnf{display:none}
+body.show-ip-jsbnf #slide-13 .ip-jsbnf{display:table-row}
+#slide-15 .ag-body>table th,#slide-15 .ag-body>table td{padding:16px 8px!important}
