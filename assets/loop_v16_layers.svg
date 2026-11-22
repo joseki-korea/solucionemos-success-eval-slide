@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+<title id="title">멀티 에이전틱 자율 진화 공장 네 층</title>
+<desc id="desc">경영 에이전트, 공정 센서 관제, 공정 로봇 자동화 및 PLC 바이브 제어, 자율 학습의 완료와 추진 예정을 구분한 개념도</desc>
+<style>
+text{font-family:Paperlogy,'Malgun Gothic',sans-serif}.label{font-size:27px;font-weight:700}.detail{font-size:20px}.status{font-size:18px;font-weight:700}.flow{fill:none;stroke:#76b900;stroke-width:4;stroke-linecap:round;stroke-dasharray:2 12;animation:move 3s linear infinite}@keyframes move{to{stroke-dashoffset:-42}}@media(prefers-reduced-motion:reduce){.flow{animation:none}}@media print{.flow{animation:none}}
+</style>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#76b900"/></marker></defs>
+<path id="flow1" class="flow" d="M80 64H110" marker-end="url(#arrow)"/><path id="flow2" class="flow" d="M80 174H110" marker-end="url(#arrow)"/><path id="flow3" class="flow" d="M80 284H110" marker-end="url(#arrow)"/><path id="flow4" class="flow" d="M80 394H110" marker-end="url(#arrow)"/><path id="flow5" class="flow" d="M1450 440V477H42V64H80" marker-end="url(#arrow)"/>
+<rect x="112" y="18" width="1360" height="94" rx="12" fill="#f4f8ee" stroke="#3e750f" stroke-width="2" stroke-dasharray="8 6"/>
+<text class="label" x="136" y="52" fill="#234b08">01 · ERP·MES 너머 — 경영 에이전트</text><text class="detail" x="136" y="85" fill="#315324">계획이 현장 실행으로 이어지는 경영 · 생산·품질·자재·경영 에이전트 조율</text><text class="status" x="1265" y="51" fill="#4d751d">2027 추진 예정</text>
+<rect x="112" y="128" width="1360" height="94" rx="12" fill="#2e5e05"/><text class="label" x="136" y="162" fill="#fff">02 · 공정 에이전틱 센서 관제</text><text class="detail" x="136" y="195" fill="#fff">열화상·영상·온습도 센서 · Jetson Orin · 로컬 LLM · 충주 현장 실증</text><text class="status" x="1270" y="161" fill="#d5efaa">시제품 실증 완료</text>
+<rect x="112" y="238" width="1360" height="94" rx="12" fill="#f4f8ee" stroke="#3e750f" stroke-width="2" stroke-dasharray="8 6"/><text class="label" x="136" y="272" fill="#234b08">03 · 공정 로봇 자동화 · PLC 바이브 제어</text><text class="detail" x="136" y="305" fill="#315324">말로 지시하면 에이전트가 로봇·PLC 제어로 옮기는 바이브 제어 · 로봇 공정 협약 완료</text><text class="status" x="1265" y="271" fill="#4d751d">2027 추진 예정</text>
+<rect x="112" y="348" width="1360" height="94" rx="12" fill="#f4f8ee" stroke="#3e750f" stroke-width="2" stroke-dasharray="8 6"/><text class="label" x="136" y="382" fill="#234b08">04 · 자율 학습</text><text class="detail" x="136" y="415" fill="#315324">YOLO·OCR 첫 모델 완료 · 결과 데이터로 모델을 다시 학습하는 순환은 추진 예정</text><text class="status" x="1265" y="381" fill="#4d751d">재학습 추진 예정</text>
+</svg>

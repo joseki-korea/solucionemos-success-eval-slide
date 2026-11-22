@@ -1,0 +1,10 @@
+/* Perforations from the approved kiosk drawing; decoration stays in the margin. */
+.dot-decor{position:absolute;right:-40px;top:320px;width:168px;height:168px;z-index:0;pointer-events:none;background:url('../assets/dot_unit.svg') center / contain no-repeat;opacity:.1}
+.is-dark .dot-decor{opacity:.23;filter:invert(80%) sepia(75%) saturate(800%) hue-rotate(35deg)}
+#slide-01 .dot-decor,#slide-16 .dot-decor{width:320px;height:320px;right:-104px;top:72px;opacity:.12}
+.page5-points>div:last-child b::before{content:"";display:inline-block;width:24px;height:24px;margin-right:8px;vertical-align:middle;background:url('../assets/dot_unit.svg') center/contain no-repeat}
+#top-progress{appearance:none;-webkit-appearance:none;background:transparent;height:8px!important}
+#top-progress::-webkit-progress-bar{background:radial-gradient(circle,#465044 2px,transparent 2.5px) left center/8px 8px repeat-x}
+#top-progress::-webkit-progress-value{background:radial-gradient(circle,#a8db47 2px,transparent 2.5px) left center/8px 8px repeat-x}
+#top-progress::-moz-progress-bar{background:radial-gradient(circle,#a8db47 2px,transparent 2.5px) left center/8px 8px repeat-x}
+.p34-vent:before{background:url('../assets/dot_unit.svg') center/contain no-repeat;mask:none;-webkit-mask:none}

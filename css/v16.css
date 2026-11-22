@@ -1,0 +1,39 @@
+/* v16 cover selections and demonstrative mockups; original template remains unchanged. */
+.cover-options .cover-variant,.cover-caption{display:none!important}.cover-a .cover-options .cover-a,.cover-b .cover-options .cover-b,.cover-c .cover-options .cover-c{display:block!important}.cover-a .cover-caption-a,.cover-b .cover-caption-b,.cover-c .cover-caption-c{display:block!important}
+.cover-caption{position:absolute;right:120px;bottom:96px;font-size:23px;color:var(--on-night-2);z-index:2}
+.product-hero .hero-render{width:1152px;right:-360px;top:96px;opacity:1;z-index:1}.product-hero .hero-vertical{z-index:0;background:transparent;color:#53654a}.product-hero .hero-orbit{z-index:2}.product-hero .hero-badge{background:rgba(0,0,0,.78);padding:8px;border-radius:8px}.product-cutout-caption{position:absolute;right:120px;bottom:96px;font-size:23px;color:var(--on-night-2);z-index:2}
+/* More vertical room for the five-level process illustration and endpoint leaders. */
+#slide-14 .process-legend{position:absolute;right:120px;top:184px;width:416px;display:grid;grid-template-columns:repeat(2,1fr);gap:8px;z-index:3;font-size:16px}
+#slide-14 .process-legend span{white-space:normal}#slide-14 .process-legend b{padding:8px}
+#slide-14 .process-stage{position:absolute;left:120px;right:120px;top:184px;height:800px;gap:32px}
+#slide-14 .process-picture{height:800px;overflow:hidden;z-index:0}#slide-14 .process-picture img{width:min(100%,588px);height:auto;max-height:100%;object-fit:contain}
+#slide-14 .process-left,#slide-14 .process-right{display:block;position:relative;height:100%;z-index:2}
+#slide-14 .process-box{position:absolute;left:0;right:0;padding:8px 16px;background:#fff}#slide-14 .process-box:before,#slide-14 .process-box:after{display:none}
+#slide-14 .process-left .process-box:nth-child(1){top:calc(18% - 56px)}#slide-14 .process-left .process-box:nth-child(2){top:calc(50% - 56px)}#slide-14 .process-left .process-box:nth-child(3){top:calc(84% - 56px)}
+#slide-14 .process-right .process-box:nth-child(1){top:calc(33% - 56px)}#slide-14 .process-right .process-box:nth-child(2){top:calc(64% - 56px)}
+#slide-14 .process-leaders{position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none}
+.process-mock{position:absolute;left:0;right:0;bottom:0;margin:0;height:192px;overflow:hidden;background:#101510}.process-mock img{width:100%;height:100%;object-fit:contain;display:block}.process-mock figcaption{position:absolute;bottom:0;left:0;right:0;padding:8px;background:rgba(0,0,0,.72);color:#fff;font-size:22px;font-weight:700;line-height:1.2}
+#slide-16:before{display:none}.closing-mock{position:absolute;width:1152px;height:auto;left:-384px;bottom:-256px;opacity:.42;z-index:-1;pointer-events:none}.closing-mock-caption{position:absolute;left:120px;bottom:88px;color:#dce7d5;font-size:22px;z-index:2}
+
+/* 30차 4차 보정과 33차: completed facts vs proposed architecture. */
+.vision-definition{font-size:19px;line-height:1.3;color:var(--ink-2)}.vision-definition b{color:#3a6a00;font-size:16px}.vision-definition .planned{color:#9b632b}
+.structure-body{gap:16px!important;justify-content:center!important}.structure-summary{font-size:22px;color:var(--ink-2)}.structure-summary b{color:#3a6a00}.structure-loop{position:relative;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px;align-items:stretch;padding:24px 0 80px}.structure-node{position:relative;z-index:2;display:grid;align-content:start;gap:8px;min-height:184px;padding:16px;border-radius:8px;background:#3a6a00;color:#fff}.structure-node b{font-size:23px}.structure-node span{font-size:16px;font-weight:700}.structure-node small{font-size:17px;line-height:1.3}.structure-node.planned-node{background:#f3f8e8;border:2px dashed #3a6a00;color:#244518}.structure-node.mixed{background:#e8f1df;border:2px dashed #3a6a00;color:#244518}.structure-node:not(:last-of-type):after{content:"→";position:absolute;right:-16px;top:72px;font-size:24px;color:#76b900;z-index:3}
+.loop-track{position:absolute;left:8%;right:8%;bottom:40px;height:32px;border-bottom:3px dotted #76b900;border-left:3px dotted #76b900;border-right:3px dotted #76b900;border-radius:0 0 24px 24px}.loop-dot{position:absolute;width:10px;height:10px;border-radius:50%;background:#76b900;bottom:-6px;left:0;animation:loop-flow 7s linear infinite}.loop-caption{position:absolute;bottom:0;left:0;right:0;text-align:center;font-size:17px;color:#4b6740}@keyframes loop-flow{from{left:0}to{left:100%}}@media(prefers-reduced-motion:reduce){.loop-dot{animation:none}}@media print{.loop-dot{animation:none!important}}
+.structure-photos{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:32px;justify-items:center}.structure-photos figure{grid-column:span 6;width:min(100%,288px)}
+#slide-06:before{left:auto;top:auto;right:-480px;bottom:-400px;opacity:.08}.tag-inactive{opacity:.18}.process-loop-label{position:absolute;left:29%;top:70%;font-size:17px;color:#4c7830;background:#fff;padding:8px;z-index:2}
+#slide-04 .hero-orbit{display:none}#slide-04 .hero-plan{display:none}
+#slide-04 .hero-render{width:1152px;right:-260px}
+#slide-04 .product-cutout-caption{font-size:20px;line-height:1.35;text-align:right}
+.cover-caption-b{font-size:18px!important;max-width:760px;text-align:right}
+#slide-05 .p34-body{display:grid!important;grid-template-columns:740px 1fr;gap:48px!important;align-items:center;justify-content:initial!important}
+.p34-drawing{width:740px;position:relative;align-self:center}.p34-drawing>img{width:100%;height:auto;display:block}.p34-drawing p{font-size:17px;color:#53604d;margin-top:8px}.p34-leaders{position:absolute;left:0;top:0;width:100%;height:auto;pointer-events:none}
+.p34-right{display:grid;gap:16px;align-content:center}.p34-products{display:grid;grid-template-columns:2fr 1fr;gap:16px;align-items:center}.p34-products figure{margin:0;min-width:0}.p34-products img{display:block;width:100%;height:320px;object-fit:contain}.p34-products .p34-back img{height:230px}.p34-products figcaption{font-size:16px;line-height:1.3;color:#53604d;text-align:center}.p34-legend{display:grid;grid-template-columns:1fr 1fr;gap:16px 24px;font-size:22px}.p34-legend p{margin:0}.p34-legend b{color:#3a6a00;margin-right:8px}.p34-vent:before{content:"";display:inline-block;width:24px;height:24px;margin-right:8px;vertical-align:middle;background:#3a6a00;mask:url('../assets/dot_unit.svg') center/contain no-repeat;-webkit-mask:url('../assets/dot_unit.svg') center/contain no-repeat}.p34-note{font-size:19px;line-height:1.4;color:#38532c;border-left:4px solid #76b900;padding-left:16px}
+.p35-body{display:flex!important;flex-direction:column;justify-content:center!important;gap:4px!important}
+.p35-loop{display:block;width:100%;height:450px;object-fit:contain}
+.p35-disclaimer{font-size:16px;color:#50664a;text-align:center}
+.p35-control>b{display:block;font-size:20px;color:#315c06;margin-bottom:8px}
+.p35-evidence{display:grid;grid-template-columns:1fr 1fr 1.35fr;gap:24px}
+.p35-evidence figure{margin:0;min-width:0;display:flex;flex-direction:column;align-items:center}
+.p35-evidence img{display:block;width:100%;height:168px;object-fit:contain}
+.p35-evidence figcaption{font-size:18px;line-height:1.25;color:#364832;text-align:center;margin-top:4px}
+.p35-evidence .p35-mock figcaption{font-size:22px;font-weight:700;color:#2f510e}
