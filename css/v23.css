@@ -1,0 +1,83 @@
+/* Round 47: concise deck, verified tax totals and separated IP ownership. */
+#slide-02 .metrics article{padding:24px!important}
+#slide-02 .metrics strong{font-size:52px!important;white-space:nowrap}
+#slide-02 .metrics strong span{font-size:26px}
+#slide-02 .metrics small{font-size:20px!important;line-height:1.35!important}
+#slide-02 .vision-definition{font-size:22px;line-height:1.4}
+#slide-02 .callout{font-size:22px!important}
+#slide-05 .p34-body{position:relative;padding-bottom:56px}
+#slide-05 .v23-spec{position:absolute;left:0;right:0;bottom:64px;margin:0;padding:16px 24px;font-size:23px;white-space:nowrap}
+#slide-05 .p34-drawing>p{font-size:20px!important}
+#slide-07 .tbl{font-size:24px!important}
+#slide-07 .tbl caption{font-size:22px}
+#slide-07 .tbl th,#slide-07 .tbl td{padding:24px 16px!important}
+#slide-07 .layers .layer{grid-template-columns:1fr}
+#slide-07 .layers .layer b{font-size:28px}
+#slide-07 .p20-evidence-note{font-size:20px!important}
+#slide-08 .card>div>p{font-size:23px!important}
+#slide-08 .card span[style*="font-size:17px"]{font-size:20px!important}
+#slide-09 .tbl{font-size:23px!important}
+#slide-10 .ag-body{transform:none;justify-content:center}
+#slide-10 .v23-performance{align-items:center!important}
+.v23-revenue h3{font-size:28px;color:var(--brand);margin:0 0 32px}
+.v23-revenue h3 span{font-size:23px;font-weight:500}
+.v23-chart{padding:48px 16px 0 0;position:relative}
+.v23-chart:after{content:"";position:absolute;right:16px;top:32px;bottom:112px;border-right:3px dashed #527926}
+.v23-target{position:absolute;top:0;right:0;color:#42631d;font-size:22px;font-weight:700}
+.v23-bar{margin-bottom:32px}
+.v23-bar-label{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-bottom:8px;font-size:25px}
+.v23-bar-label b{font-weight:700}
+.v23-bar-label b span{font-size:21px;font-weight:500}
+.v23-bar-label strong{white-space:nowrap;font-size:30px;color:var(--brand)}
+.v23-bar-label small{font-size:23px;font-weight:500}
+.v23-track{height:48px;background:#e8eddf;border-radius:0 8px 8px 0;overflow:hidden}
+.v23-track i{display:block;height:100%;background:#a2c86c;border-radius:0 8px 8px 0}
+.v23-total .v23-track i{background:#568b1c}
+.v23-achievement{font-size:26px;margin:16px 0 0;color:#446426}
+.v23-achievement strong{font-size:48px;margin-left:16px;color:#2c5a00}
+#slide-10 .v23-source{font-size:20px;line-height:1.4;margin-top:24px}
+#slide-10 .v23-results table{font-size:23px!important;table-layout:fixed}
+#slide-10 .v23-results table caption{font-size:22px;margin-bottom:16px;text-align:left}
+#slide-10 .v23-results table th,#slide-10 .v23-results table td{padding:24px 8px!important}
+#slide-10 .v23-results table th:nth-child(1){width:19%}
+#slide-10 .v23-results table th:nth-child(2){width:21%}
+#slide-10 .v23-results table th:nth-child(3){width:38%}
+#slide-10 .v23-results table th:nth-child(4){width:22%}
+.v23-ip-summary{font-size:23px;margin:24px 0 8px;color:#2c5a00}
+.v23-ip-history{font-size:22px;line-height:1.4;color:#53604d}
+#slide-11 .tbl{font-size:23px!important}
+#slide-11 .tbl tbody th{font-size:23px!important}
+#slide-11 .ag-body>p{font-size:20px!important}
+#slide-14 .process-note,#slide-14 .process-loop-label,#slide-14 [style*="font-size:17px"]{font-size:20px!important}
+#slide-13 .ip-body{justify-content:flex-start!important;gap:16px;padding-top:8px}
+#slide-13 .v23-ip-topline{font-size:22px;line-height:1.35;color:#2c5a00;margin:0}
+#slide-13 .ip-table{font-size:22px;line-height:1.2}
+#slide-13 .ip-table th,#slide-13 .ip-table td{padding:8px!important;overflow-wrap:normal}
+#slide-13 .ip-table td:nth-child(2){overflow-wrap:normal;word-break:normal}
+#slide-13 .ip-table td:nth-child(3){white-space:nowrap;font-size:20px}
+#slide-13 .ip-table th:nth-child(3){white-space:nowrap}
+#slide-13 .ip-trademarks{white-space:nowrap}
+#slide-13 .ip-jsbnf{background:#f4f5ee;color:#455341}
+#slide-13 .ip-owner{font-size:20px}
+#slide-13 .ip-source{font-size:20px;line-height:1.3}
+#slide-15 .v23-year-targets{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+#slide-15 .v23-year-targets p{font-size:25px;padding:16px 24px;border:1px solid #d6e0cb;border-radius:8px;background:#f3f7ed;margin:0}
+#slide-15 .v23-year-targets b{display:block;color:#2c5a00;font-size:22px;margin-bottom:8px}
+#slide-15 .ag-body>p{font-size:20px!important}
+#slide-15 .ag-body>table,#slide-15 .ag-body>table th{font-size:20px!important}
+#slide-16 .ag-body>.split>*:first-child{grid-column:span 7}
+#slide-16 .ag-body>.split>*:last-child{grid-column:span 5}
+#slide-16 .ag-body .card{padding:24px!important;min-height:96px;justify-content:center}
+#slide-16 .ag-body .card p{font-size:23px!important;line-height:1.35;white-space:nowrap}
+#slide-16 .v23-closing-ip{font-size:20px;line-height:1.4;color:#e3ecd8;margin:0}
+#slide-16 .ag-body p[style*="font-size:19px"]{font-size:20px!important}
+/* Existing 1920x1080 canvas corresponds to 1600x900 with 100px side margins. */
+@media print{
+  /* Pin small print labels explicitly instead of inheriting viewport-dependent sizes. */
+  .ag-slide .eyebrow,.ag-slide .eyebrow span,.ag-slide .ag-foot,.ag-slide .ag-foot span,.ag-slide .ag-page{font-size:20px!important}
+  #slide-01 .cover-date,#slide-01 .cover-sub,#slide-01 .cover-bottom,#slide-01 .cover-bottom span,#slide-01 .cover-bottom b{font-size:20px!important}
+  .ag-slide .step-number{font-size:20px!important}
+  .ag-slide:not(#slide-01) .ag-body small,.ag-slide:not(#slide-01) .caption{font-size:20px!important}
+  #slide-16 .ag-body>.split>*:first-child{grid-column:span 7}
+  #slide-16 .ag-body>.split>*:last-child{grid-column:span 5}
+}
