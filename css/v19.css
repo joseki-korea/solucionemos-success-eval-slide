@@ -1,0 +1,6 @@
+/* Final polish: larger evidence images and balanced vertical placement. */
+#slide-09 .ag-body,#slide-10 .ag-body{transform:none}
+#slide-06 .p35-loop{height:488px}
+#slide-06 .p35-evidence{grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+#slide-06 .p35-evidence img{height:208px;object-position:center!important}
+#slide-06 .p35-evidence figure figcaption{align-self:center!important;text-align:center!important;font-size:20px!important}
