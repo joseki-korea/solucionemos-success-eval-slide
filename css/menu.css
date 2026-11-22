@@ -1,0 +1,17 @@
+/* Additional UI and print fixes; template CSS is unchanged. */
+.viewer-top{gap:12px;overflow:visible}.viewer-brand{white-space:nowrap;font-size:15px!important}
+#toc-button,#search-button,#notes-button,#motion-button,#mode-button{display:none!important}
+#chapter-nav{display:flex;gap:4px;align-items:center;justify-content:center;flex:1;min-width:0}
+#chapter-nav button{font-size:14px;border:0;background:transparent;color:#aeb8a6;padding:7px 9px;border-radius:6px;white-space:nowrap}
+#chapter-nav button.active{color:#d4f58a;background:#28371f;font-weight:700}
+#top-status{display:flex;align-items:center;gap:8px;color:#d4f58a;font-size:13px;white-space:nowrap}
+#top-progress{width:78px;height:5px;accent-color:#76b900}
+.menu-panel{position:absolute;top:calc(100% + 8px);right:12px;width:min(500px,92vw);max-height:0;opacity:0;overflow:hidden;transform:translateY(-8px);transition:max-height .22s ease,opacity .18s ease,transform .22s ease;background:#121411;border:1px solid #3c4935;border-radius:12px;box-shadow:0 14px 35px #0008;color:#f1f3ee;z-index:20}
+.menu-panel.is-open{max-height:min(72vh,700px);opacity:1;transform:translateY(0);overflow:auto}
+.menu-panel-head{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;font-size:15px;font-weight:700;border-bottom:1px solid #30382a}
+#menu-list{list-style:none;margin:0;padding:8px} #menu-list li{margin:0;padding:0}
+#menu-list button{display:flex;width:100%;text-align:left;gap:12px;border:0;background:transparent;color:#f1f3ee;border-radius:7px;padding:8px 10px;font-size:14px}
+#menu-list button:hover,#menu-list button[aria-current="page"]{background:#30431f;color:#d4f58a}
+#menu-list .menu-num{color:#a8e04a;font-variant-numeric:tabular-nums}
+@media(max-width:1100px){#chapter-nav button{font-size:12px;padding:5px} .viewer-brand{max-width:220px;overflow:hidden;text-overflow:ellipsis}}
+@media print{.sr-only,#menu-panel{display:none!important}.cards,.reading .cards{grid-template-columns:repeat(var(--cols,3),minmax(0,1fr))!important}.split,.reading .split{grid-template-columns:var(--split,1fr 1fr)!important}.compare,.reading .compare{grid-template-columns:1fr 1fr!important}.process,.reading .process{grid-template-columns:repeat(4,1fr)!important}.metrics{grid-template-columns:repeat(4,1fr)!important}.hub{flex-direction:row!important}}

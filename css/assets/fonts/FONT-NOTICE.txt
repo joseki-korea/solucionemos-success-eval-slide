@@ -1,0 +1,20 @@
+Paperlogy embedded WOFF2 subset font notices
+
+Copyright © 2024 PT&
+Paperlogy font is a trademark of Lee Juim.
+redesigned by Lee Juim, glyphs from Gmarket Sans & Montserrat
+
+The bundled fonts are extracted unchanged from the user-provided HTML.
+Metadata reports Version 1.000; each file has 741 glyphs/codepoints.
+These are limited subsets, not complete Paperlogy font distributions.
+The fonts remain licensed under the SIL Open Font License 1.1.
+See OFL-Paperlogy.txt for the full license and upstream copyright notice.
+
+Official distribution: https://freesentation.blog/paperlogyfont
+Official repository license: https://github.com/Freesentation/paperlogy/blob/main/OFL%20license.txt
+Official page's license link: https://www.designptn.com/wp-content/uploads/2024/08/OFL-license.txt
+
+OFL-Paperlogy.txt was transcribed from the official repository's rendered file on 2026-11-10; whitespace differs from the raw download.
+No Reserved Font Name declaration was found in the reviewed license or embedded font name metadata. A trademark notice is preserved above.
+
+This notice covers only the fonts. No separate license granting redistribution of the entire original HTML/code package was found in the inspected package notices or source ZIP file list. No new license is granted here for that code or other assets.

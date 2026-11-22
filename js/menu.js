@@ -1,0 +1,13 @@
+(()=>{'use strict';
+ const slides=[...document.querySelectorAll('#stage > .ag-slide')], btn=document.getElementById('menu-toggle'), panel=document.getElementById('menu-panel'), list=document.getElementById('menu-list'), nav=document.getElementById('chapter-nav'), count=document.getElementById('top-count'), progress=document.getElementById('top-progress');
+ const groups=[['사업 개요',0],['제품·기술',3],['사업비·성과',8],['추진 일정·계획',10]];
+ const title=(s)=>s.querySelector('h1,h2')?.textContent.trim() || s.dataset.title || '슬라이드';
+ const go=(n)=>{window.SlideDeck.go(n);close();document.getElementById('stage').focus({preventScroll:true})};
+ const close=()=>{panel.classList.remove('is-open');panel.setAttribute('aria-hidden','true');btn.setAttribute('aria-expanded','false')};
+ const open=()=>{panel.classList.add('is-open');panel.setAttribute('aria-hidden','false');btn.setAttribute('aria-expanded','true')};
+ slides.forEach((s,i)=>{const li=document.createElement('li'),b=document.createElement('button'),n=document.createElement('span'),label=document.createElement('span'); b.type='button';n.className='menu-num';n.textContent=String(i+1).padStart(2,'0');label.textContent=title(s);b.append(n,label);b.addEventListener('click',()=>go(i));li.append(b);list.append(li)});
+ groups.forEach(([name,start])=>{const b=document.createElement('button');b.type='button';b.textContent=name;b.addEventListener('click',()=>go(start));nav.append(b)});
+ const sync=()=>{const n=window.SlideDeck.current();count.textContent=`${n} / ${slides.length}`;progress.max=slides.length;progress.value=n;const active=groups.findLastIndex(x=>x[1]<=n-1);[...nav.children].forEach((b,i)=>{b.classList.toggle('active',i===active);if(i===active)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current')});[...list.querySelectorAll('button')].forEach((b,i)=>{if(i===n-1)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')})};
+ btn.addEventListener('click',()=>panel.classList.contains('is-open')?close():open());document.getElementById('menu-close').addEventListener('click',()=>{close();document.getElementById('stage').focus({preventScroll:true})});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&panel.classList.contains('is-open')){e.preventDefault();close();document.getElementById('stage').focus({preventScroll:true})}});document.addEventListener('click',e=>{if(!panel.contains(e.target)&&e.target!==btn)close()});
+ new MutationObserver(sync).observe(document.getElementById('page-counter'),{childList:true,characterData:true,subtree:true});sync();
+})();
