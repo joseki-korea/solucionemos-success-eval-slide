@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" preserveAspectRatio="none" fill="none" font-family="Paperlogy, 'Malgun Gothic', sans-serif">
+  <style>#flow1,#flow1b,#flow2,#flow2b,#flow3,#flow4,#flow5 {animation:signal 2s linear infinite} @keyframes signal {to {stroke-dashoffset:-26}} @media (prefers-reduced-motion:reduce) {#flow1,#flow1b,#flow2,#flow2b,#flow3,#flow4,#flow5 {animation:none}} @media print {#flow1,#flow1b,#flow2,#flow2b,#flow3,#flow4,#flow5 {animation:none}}</style><defs>
+    <marker id="arrow-down" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="7.5" markerHeight="7.5" orient="auto">
+      <path d="M 1 1.5 L 10 6 L 1 10.5 Z" fill="#5a9600"/>
+    </marker>
+    <marker id="arrow-up" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="7.5" markerHeight="7.5" orient="auto">
+      <path d="M 1 1.5 L 10 6 L 1 10.5 Z" fill="#76b900"/>
+    </marker>
+  </defs>
+
+  <!-- ===================================================================== -->
+  <!-- OUTER UMBRELLA FRAME: 0. 멀티 에이전틱 (Multi-Agentic 자율 진화 공장)    -->
+  <!-- ===================================================================== -->
+  <rect x="20" y="12" width="1560" height="576" rx="20" fill="#4a7c10" fill-opacity="0.04" stroke="#5a9600" stroke-width="2" stroke-dasharray="10 6"/>
+
+  <!-- Top Umbrella Header Bar + 2-Box Status Legend -->
+  <g id="umbrella-header">
+    <rect x="44" y="26" width="576" height="44" rx="10" fill="#13220c" stroke="#76b900" stroke-width="2"/>
+    <g transform="translate(62, 35)" stroke="#9be12b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="8" cy="8" r="4"/>
+      <circle cx="24" cy="8" r="4"/>
+      <circle cx="16" cy="21" r="4"/>
+      <path d="M 12 8 H 20 M 10 11.5 L 14 17.5 M 22 11.5 L 18 17.5"/>
+    </g>
+    <text x="102" y="55" fill="#9be12b" font-size="22" font-weight="800">멀티 에이전틱</text>
+    <text x="256" y="54" fill="#ffffff" font-size="16.5" font-weight="600">— 협업으로 만드는 자율 진화 공장</text>
+
+    <!-- Legend 2 cells (완료 / 2027 추진 예정) -->
+    <rect x="1116" y="28" width="198" height="40" rx="8" fill="#234d00" stroke="#76b900" stroke-width="1.6"/>
+    <circle cx="1138" cy="48" r="6" fill="#9be12b"/>
+    <text x="1154" y="54" fill="#ffffff" font-size="15.5" font-weight="700">완료 (협약기간 실적)</text>
+
+    <rect x="1326" y="28" width="230" height="40" rx="8" fill="#f1f7eb" stroke="#2c5a00" stroke-width="2" stroke-dasharray="6 4"/>
+    <circle cx="1348" cy="48" r="6" fill="none" stroke="#2c5a00" stroke-width="2.2" stroke-dasharray="3 2"/>
+    <text x="1364" y="54" fill="#1d3b00" font-size="15.5" font-weight="700">2027 추진 예정 (지향점)</text>
+  </g>
+
+  <!-- ===================================================================== -->
+  <!-- LAYER 1 (y=84..186): ERP·MES 너머 — 경영 에이전트 (추진 예정)           -->
+  <!-- ===================================================================== -->
+  <g id="layer-1-erp-mes">
+    <rect x="44" y="84" width="1348" height="102" rx="14" fill="#f1f7eb" stroke="#2c5a00" stroke-width="2.4" stroke-dasharray="8 5"/>
+
+    <g transform="translate(66, 106)" stroke="#2c5a00" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2" y="4" width="32" height="26" rx="4"/>
+      <path d="M 9 13 H 27 M 9 21 H 21"/>
+    </g>
+    <text x="112" y="123" fill="#2c5a00" font-size="23" font-weight="800">ERP·MES 너머 — 경영 에이전트</text>
+    <rect x="458" y="102" width="116" height="25" rx="12.5" fill="#dfeed2" stroke="#2c5a00" stroke-width="1.5"/>
+    <text x="516" y="119" text-anchor="middle" fill="#1b4000" font-size="13" font-weight="800">2027 추진 예정</text>
+
+    <text x="112" y="152" fill="#182612" font-size="15.5" font-weight="600">ERP·MES를 넘어, 계획이 현장 실행으로 이어지는 경영 (기록·조회에서 멈추지 않고 에이전트가 조율)</text>
+    <text x="112" y="173" fill="#3c5431" font-size="13.5" font-weight="700">출발 기반(완료): 멀티 에이전트 기반 에이전틱 경영·제조·품질 시스템 고객사 확보</text>
+
+    <g id="layer1-agent-chips">
+      <line x1="932" y1="120" x2="1280" y2="120" stroke="#4f8500" stroke-width="1.8" stroke-dasharray="3 4"/>
+      <line x1="932" y1="156" x2="1280" y2="156" stroke="#4f8500" stroke-width="1.8" stroke-dasharray="3 4"/>
+
+      <rect x="872" y="102" width="96" height="32" rx="8" fill="#ffffff" stroke="#2c5a00" stroke-width="1.8"/>
+      <text x="920" y="123" text-anchor="middle" fill="#183600" font-size="14" font-weight="800">생산 에이전트</text>
+
+      <rect x="980" y="102" width="96" height="32" rx="8" fill="#ffffff" stroke="#2c5a00" stroke-width="1.8"/>
+      <text x="1028" y="123" text-anchor="middle" fill="#183600" font-size="14" font-weight="800">품질 에이전트</text>
+
+      <rect x="1088" y="102" width="96" height="32" rx="8" fill="#ffffff" stroke="#2c5a00" stroke-width="1.8"/>
+      <text x="1136" y="123" text-anchor="middle" fill="#183600" font-size="14" font-weight="800">자재 에이전트</text>
+
+      <rect x="1196" y="102" width="96" height="32" rx="8" fill="#ffffff" stroke="#2c5a00" stroke-width="1.8"/>
+      <text x="1244" y="123" text-anchor="middle" fill="#183600" font-size="14" font-weight="800">경영 에이전트</text>
+
+      <rect x="936" y="142" width="292" height="28" rx="14" fill="#2c5a00"/>
+      <text x="1082" y="161" text-anchor="middle" fill="#ffffff" font-size="13.5" font-weight="700">수주 · 자재 · 공정 계획 ↔ 현장 작업 지시</text>
+
+      <rect x="1304" y="102" width="72" height="68" rx="10" fill="#234d00" stroke="#76b900" stroke-width="1.5"/>
+      <text x="1340" y="125" text-anchor="middle" fill="#9be12b" font-size="12" font-weight="800">기반 완료</text>
+      <text x="1340" y="144" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700">시스템</text>
+      <text x="1340" y="161" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700">고객 확보</text>
+    </g>
+  </g>
+
+  <!-- Vertical Bi-directional Dotted Signal Arrows between Layer 1 & Layer 2 -->
+  <g id="signals-1-2">
+    <path id="flow1" d="M 520 186 L 520 210" stroke="#5a9600" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="1 9" marker-end="url(#arrow-down)"/>
+    <text x="534" y="204" fill="#538d00" font-size="12.5" font-weight="700">계획·기준 하달</text>
+    <path id="flow1b" d="M 880 212 L 880 188" stroke="#76b900" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="1 9" marker-end="url(#arrow-up)"/>
+    <text x="894" y="204" fill="#538d00" font-size="12.5" font-weight="700">이상·점검 보고</text>
+  </g>
+
+  <!-- ===================================================================== -->
+  <!-- LAYER 2 (y=214..322): 공정 에이전틱 센서 관제 (완료 · 보고서 문구 정본)  -->
+  <!-- ===================================================================== -->
+  <g id="layer-2-sensor-control">
+    <rect x="44" y="214" width="1348" height="108" rx="14" fill="#234d00" stroke="#76b900" stroke-width="2.4"/>
+
+    <g transform="translate(66, 236)" stroke="#9be12b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2" y="6" width="30" height="22" rx="4"/>
+      <circle cx="17" cy="17" r="5.5"/>
+      <path d="M 36 10 A 11 11 0 0 1 36 24"/>
+    </g>
+    <text x="112" y="253" fill="#ffffff" font-size="24" font-weight="800">공정 에이전틱 센서 관제</text>
+    <rect x="394" y="232" width="142" height="25" rx="12.5" fill="#76b900"/>
+    <text x="465" y="249" text-anchor="middle" fill="#102200" font-size="13" font-weight="800">완료 (협약기간 실적)</text>
+
+    <!-- Exact Final Report specs (37차 지시 준수: 350×250×100mm · Jetson Orin · 로컬 LLM) -->
+    <text x="112" y="283" fill="#e8f5dc" font-size="15" font-weight="600">솔루시오네모스 AI Agentic 키오스크 (350×250×100mm 본체 · Jetson Orin 탑재 · 열화상·영상·온습도 센서 결합)</text>
+    <text x="112" y="306" fill="#b8e968" font-size="13.8" font-weight="700">외부 인터넷 없이 로컬 LLM이 HACCP 기준 안내 · 작업자 확인·기록 · 충주 식품 제조 현장 시제품 설치·태블릿 실증 완료</text>
+
+    <g id="layer2-evidence">
+      <rect x="1008" y="230" width="178" height="34" rx="8" fill="#173500" stroke="#76b900" stroke-width="1.4"/>
+      <text x="1097" y="252" text-anchor="middle" fill="#ffffff" font-size="13.5" font-weight="700">Jetson Orin · 로컬 LLM</text>
+
+      <rect x="1196" y="230" width="180" height="34" rx="8" fill="#173500" stroke="#76b900" stroke-width="1.4"/>
+      <text x="1286" y="252" text-anchor="middle" fill="#ffffff" font-size="13.5" font-weight="700">센서 대시보드 · 현장 실증</text>
+
+      <rect x="1008" y="272" width="368" height="34" rx="8" fill="#2f6300" stroke="#9be12b" stroke-width="1.4"/>
+      <text x="1192" y="294" text-anchor="middle" fill="#ffffff" font-size="13.5" font-weight="700">위생복·위생모 YOLO · 점검 문서 OCR 위탁개발 2건 완료</text>
+    </g>
+  </g>
+
+  <!-- Vertical Bi-directional Dotted Signal Arrows between Layer 2 & Layer 3 -->
+  <g id="signals-2-3">
+    <path id="flow2" d="M 520 322 L 520 346" stroke="#5a9600" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="1 9" marker-end="url(#arrow-down)"/>
+    <text x="534" y="340" fill="#538d00" font-size="12.5" font-weight="700">이상 감지 · 제어 요청</text>
+    <path id="flow2b" d="M 880 348 L 880 324" stroke="#76b900" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="1 9" marker-end="url(#arrow-up)"/>
+    <text x="894" y="340" fill="#538d00" font-size="12.5" font-weight="700">설비 운전 상태 환류</text>
+  </g>
+
+  <!-- ===================================================================== -->
+  <!-- LAYER 3 (y=350..456): 공정 로봇 자동화 · PLC 바이브 제어 (추진 예정)     -->
+  <!-- ===================================================================== -->
+  <g id="layer-3-robot-plc-vibe">
+    <rect x="44" y="350" width="1348" height="106" rx="14" fill="#f1f7eb" stroke="#2c5a00" stroke-width="2.4" stroke-dasharray="8 5"/>
+
+    <g transform="translate(66, 370)" stroke="#2c5a00" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 4 28 H 24 M 14 28 V 18 L 24 8 L 34 14"/>
+      <circle cx="14" cy="18" r="3"/>
+      <circle cx="24" cy="8" r="3"/>
+      <path d="M 34 11 V 18"/>
+    </g>
+    <text x="112" y="389" fill="#2c5a00" font-size="23" font-weight="800">공정 로봇 자동화 · PLC 바이브 제어</text>
+    <rect x="502" y="368" width="116" height="25" rx="12.5" fill="#dfeed2" stroke="#2c5a00" stroke-width="1.5"/>
+    <text x="560" y="385" text-anchor="middle" fill="#1b4000" font-size="13" font-weight="800">2027 추진 예정</text>
+
+    <!-- Exact 1-line description mandated in Round 35 update -->
+    <text x="112" y="420" fill="#182612" font-size="16" font-weight="700">말로 지시하면 에이전트가 로봇·PLC 제어로 옮기는 바이브 제어</text>
+    <text x="112" y="441" fill="#3c5431" font-size="13.5" font-weight="600">로봇 자동화 설비 실증·도입 MoU 5건(공급계약 전) 기반 후속 공정 실증 연계</text>
+
+    <!-- Right Split Sub-boxes: 출발점 완료 vs 2027 계획 (zero pill overlap) -->
+    <rect x="844" y="364" width="262" height="78" rx="10" fill="#234d00" stroke="#76b900" stroke-width="1.6"/>
+    <rect x="1028" y="373" width="66" height="20" rx="10" fill="#76b900"/>
+    <text x="1061" y="387" text-anchor="middle" fill="#102200" font-size="11.5" font-weight="800">출발점 완료</text>
+    <text x="858" y="391" fill="#ffffff" font-size="15.5" font-weight="800">로봇 공정 협약 완료</text>
+    <text x="858" y="414" fill="#d9ecc9" font-size="13" font-weight="500">인더스트리 4.0 협회 ·</text>
+    <text x="858" y="431" fill="#b8e968" font-size="13" font-weight="700">아이투비씨(현대로봇 출신) 협약</text>
+
+    <rect x="1116" y="364" width="260" height="78" rx="10" fill="#ffffff" stroke="#2c5a00" stroke-width="1.8" stroke-dasharray="5 4"/>
+    <rect x="1296" y="373" width="68" height="20" rx="10" fill="#dfeed2" stroke="#2c5a00" stroke-width="1.2"/>
+    <text x="1330" y="387" text-anchor="middle" fill="#1b4000" font-size="11.5" font-weight="800">2027 계획</text>
+    <text x="1130" y="391" fill="#16290e" font-size="15.5" font-weight="800">바이브 제어 · 실증</text>
+    <text x="1130" y="414" fill="#374a30" font-size="13" font-weight="600">멀티 에이전틱 공장 R&amp;D ·</text>
+    <text x="1130" y="431" fill="#2c5a00" font-size="13" font-weight="700">2027 로봇 공정 실증 추진 예정</text>
+  </g>
+
+  <!-- Vertical Dotted Signal Arrow between Layer 3 & Layer 4 -->
+  <g id="signals-3-4">
+    <path id="flow3" d="M 700 456 L 700 480" stroke="#5a9600" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="1 9" marker-end="url(#arrow-down)"/>
+    <text x="714" y="474" fill="#538d00" font-size="12.5" font-weight="700">현장 점검·실행 결과 데이터 축적</text>
+  </g>
+
+  <!-- ===================================================================== -->
+  <!-- LAYER 4 (y=484..574): 자율 학습 (첫 모델 완료 + 자율 재학습 추진 예정)   -->
+  <!-- ===================================================================== -->
+  <g id="layer-4-self-learning">
+    <rect x="44" y="484" width="1348" height="90" rx="14" fill="#ffffff" fill-opacity="0.95" stroke="#3b6e00" stroke-width="2.2"/>
+
+    <g transform="translate(66, 508)" stroke="#2c5a00" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 6 16 A 11 11 0 0 1 26 10"/>
+      <path d="M 23 5 L 27 11 L 20 12"/>
+      <path d="M 28 16 A 11 11 0 0 1 8 22"/>
+      <path d="M 11 27 L 7 21 L 14 20"/>
+    </g>
+    <text x="112" y="525" fill="#2c5a00" font-size="23" font-weight="800">자율 학습</text>
+    <text x="112" y="551" fill="#374a30" font-size="14.5" font-weight="600">스스로 AI 모델을 다시 학습하는 진화 고리</text>
+
+    <rect x="416" y="496" width="462" height="66" rx="10" fill="#234d00" stroke="#76b900" stroke-width="1.6"/>
+    <rect x="812" y="505" width="52" height="20" rx="10" fill="#76b900"/>
+    <text x="838" y="519" text-anchor="middle" fill="#102200" font-size="11.5" font-weight="800">완료</text>
+    <text x="434" y="523" fill="#ffffff" font-size="16.5" font-weight="800">첫 모델 확보 — YOLO · OCR 위탁개발 2건</text>
+    <text x="434" y="547" fill="#d9ecc9" font-size="13.5" font-weight="500">작업자 위생 판독 모델 · 한글 점검 문서 OCR 가중치·완료보고서 확보</text>
+
+    <rect x="892" y="496" width="484" height="66" rx="10" fill="#f1f7eb" stroke="#2c5a00" stroke-width="2" stroke-dasharray="6 4"/>
+    <rect x="1270" y="505" width="92" height="20" rx="10" fill="#dfeed2" stroke="#2c5a00" stroke-width="1.2"/>
+    <text x="1316" y="519" text-anchor="middle" fill="#1b4000" font-size="11.5" font-weight="800">2027 예정</text>
+    <text x="910" y="523" fill="#16290e" font-size="16.5" font-weight="800">자율 재학습 순환 실증</text>
+    <text x="910" y="547" fill="#2c5a00" font-size="13.5" font-weight="700">현장 결과 데이터로 모델을 스스로 다시 학습해 상위 계층에 배포 (지향점)</text>
+  </g>
+
+  <!-- ===================================================================== -->
+  <!-- RIGHT-SIDE CLOSED-LOOP RETURN HIGHWAY (자율 학습 -> 센서 관제 · 경영)   -->
+  <!-- ===================================================================== -->
+  <g id="return-loop-highway">
+    <path id="flow4-track" d="M 1392 529 C 1546 529, 1546 268, 1398 268" stroke="#76b900" stroke-opacity="0.22" stroke-width="9" stroke-linecap="round"/>
+    <path id="flow4" d="M 1392 529 C 1546 529, 1546 268, 1398 268" stroke="#5a9600" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="1 12" marker-end="url(#arrow-up)"/>
+
+    <path id="flow5-track" d="M 1508 360 C 1548 250, 1538 135, 1398 135" stroke="#76b900" stroke-opacity="0.18" stroke-width="7" stroke-linecap="round"/>
+    <path id="flow5" d="M 1508 360 C 1548 250, 1538 135, 1398 135" stroke="#76b900" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 12" marker-end="url(#arrow-up)"/>
+
+    <rect x="1416" y="300" width="152" height="70" rx="12" fill="#13220c" stroke="#76b900" stroke-width="2"/>
+    <text x="1492" y="326" text-anchor="middle" fill="#9be12b" font-size="14.5" font-weight="800">자율 진화 순환</text>
+    <text x="1492" y="346" text-anchor="middle" fill="#ffffff" font-size="12.5" font-weight="600">재학습 모델 배포 ·</text>
+    <text x="1492" y="362" text-anchor="middle" fill="#d3dfd0" font-size="12" font-weight="500">계획 지능 고도화</text>
+  </g>
+</svg>
