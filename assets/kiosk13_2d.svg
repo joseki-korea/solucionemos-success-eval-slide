@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="120 275 1660 620" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+  <g fill="currentColor" stroke="none" font-family="Paperlogy, 'Malgun Gothic', sans-serif" font-size="24" font-weight="700">
+    <text x="144.5" y="312">정면</text>
+    <text x="872.5" y="312">상면</text>
+    <text x="1560.5" y="312">우측면</text>
+  </g>
+  <g id="view-front">
+    <g stroke-dasharray="5 4" stroke-opacity="0.48">
+      <rect x="186.5" y="413" width="470" height="391.5" />
+      <rect x="148.5" y="404.5" width="546" height="408" />
+      <path d="M 225 771.5 L 225 804.5 M 365 771.5 L 365 804.5" />
+      <rect x="656.5" y="718" width="36" height="86.5" />
+      <rect x="660" y="655" width="26" height="22" />
+      <rect x="660" y="616" width="22" height="20" />
+      <rect x="660" y="556" width="20" height="10" />
+      <rect x="660" y="572" width="20" height="10" />
+      <circle cx="357.0" cy="535.0" r="4.8" />
+      <circle cx="475.0" cy="535.0" r="4.8" />
+      <circle cx="357.0" cy="683.0" r="4.8" />
+      <circle cx="475.0" cy="683.0" r="4.8" />
+      <circle cx="200.0" cy="424.0" r="3.2" />
+      <circle cx="421.5" cy="424.0" r="3.2" />
+      <circle cx="643.0" cy="424.0" r="3.2" />
+      <circle cx="200.0" cy="793.0" r="3.2" />
+      <circle cx="421.5" cy="793.0" r="3.2" />
+      <circle cx="643.0" cy="793.0" r="3.2" />
+      <circle cx="173.0" cy="553.0" r="3.2" />
+      <circle cx="173.0" cy="692.0" r="3.2" />
+      <circle cx="670.0" cy="553.0" r="3.2" />
+      <circle cx="670.0" cy="692.0" r="3.2" />
+      <circle cx="409.0" cy="449.0" r="3.0" />
+      <circle cx="434.0" cy="449.0" r="3.0" />
+    </g>
+    <rect x="144.5" y="400.5" width="554" height="416" />
+    <rect x="186.5" y="476.0" width="470" height="295.5" />
+    <path d="M 635.5 476.0 L 635.5 736.5 L 622.5 736.5 L 622.5 761.5 L 635.5 761.5 L 635.5 771.5" />
+    <path d="M 656.5 737.0 L 650.5 737.0 L 650.5 771.5" />
+    <path d="M 656.5 660.0 L 651.5 660.0 L 651.5 681.0 L 656.5 681.0" />
+    <rect x="379.5" y="553.0" width="80.5" height="27.5" />
+    <line x1="391.5" y1="553.0" x2="391.5" y2="580.5" />
+    <line x1="448.0" y1="553.0" x2="448.0" y2="580.5" />
+    <circle cx="385.5" cy="566.8" r="2.8" />
+    <circle cx="454.0" cy="566.8" r="2.8" />
+    <circle cx="665.5" cy="442.0" r="12.0" />
+    <circle cx="421.5" cy="449.0" r="4.5" />
+    <circle cx="324.1" cy="483.9" r="2.0" />
+    <circle cx="495.3" cy="524.6" r="3.0" />
+    <circle cx="615.0" cy="524.7" r="3.0" />
+    <circle cx="495.3" cy="605.5" r="3.0" />
+    <circle cx="615.0" cy="605.5" r="3.0" />
+    <circle cx="226.6" cy="611.1" r="2.3" />
+    <circle cx="204.5" cy="691.7" r="2.0" />
+    <circle cx="349.3" cy="691.8" r="2.0" />
+    <circle cx="645.5" cy="698.0" r="2.5" />
+  </g>
+  <g id="view-top">
+    <g stroke-dasharray="5 4" stroke-opacity="0.48">
+      <rect x="876.5" y="557.5" width="486" height="117" />
+      <line x1="912.0" y1="576.0" x2="1327.0" y2="576.0" />
+      <rect x="1094.0" y="576.0" width="48.5" height="35.0" />
+      <line x1="913.0" y1="554.0" x2="913.0" y2="576.0" />
+      <line x1="919.0" y1="554.0" x2="919.0" y2="576.0" />
+      <line x1="1115.0" y1="554.0" x2="1115.0" y2="576.0" />
+      <line x1="1121.0" y1="554.0" x2="1121.0" y2="576.0" />
+      <line x1="1319.0" y1="554.0" x2="1319.0" y2="576.0" />
+      <line x1="1325.0" y1="554.0" x2="1325.0" y2="576.0" />
+      <line x1="904.0" y1="678.0" x2="904.0" y2="690.0" />
+      <line x1="1112.0" y1="678.0" x2="1112.0" y2="690.0" />
+      <line x1="1134.0" y1="678.0" x2="1134.0" y2="690.0" />
+      <line x1="1335.0" y1="678.0" x2="1335.0" y2="690.0" />
+    </g>
+    <rect x="872.5" y="554.0" width="494.0" height="124.0" />
+    <rect x="873.5" y="678.0" width="492.0" height="12.0" />
+  </g>
+  <g id="view-right">
+    <g stroke-dasharray="5 4" stroke-opacity="0.48">
+      <rect x="1583.0" y="366.5" width="161.5" height="500.5" />
+      <line x1="1719.5" y1="382.0" x2="1719.5" y2="852.0" />
+      <rect x="1672.0" y="553.0" width="47.5" height="27.5" />
+      <circle cx="1663.0" cy="472.5" r="58.0" />
+      <circle cx="1663.0" cy="761.0" r="58.0" />
+      <circle cx="1601.0" cy="424.0" r="3.2" />
+      <circle cx="1725.0" cy="424.0" r="3.2" />
+      <circle cx="1601.0" cy="553.0" r="3.2" />
+      <circle cx="1725.0" cy="553.0" r="3.2" />
+      <circle cx="1601.0" cy="692.0" r="3.2" />
+      <circle cx="1725.0" cy="692.0" r="3.2" />
+      <circle cx="1601.0" cy="804.0" r="3.2" />
+      <circle cx="1725.0" cy="804.0" r="3.2" />
+    </g>
+    <rect x="1562.5" y="362.5" width="16.5" height="508.5" />
+    <line x1="1565.5" y1="362.5" x2="1565.5" y2="871.0" />
+    <rect x="1579.0" y="362.5" width="169.5" height="508.5" />
+    <circle cx="1571.0" cy="417.5" r="3.2" />
+    <circle cx="1571.0" cy="815.0" r="3.2" />
+    <circle cx="1629.0" cy="438.5" r="3.8" />
+    <circle cx="1646.0" cy="438.5" r="3.8" />
+    <circle cx="1663.0" cy="438.5" r="3.8" />
+    <circle cx="1680.0" cy="438.5" r="3.8" />
+    <circle cx="1697.0" cy="438.5" r="3.8" />
+    <circle cx="1629.0" cy="455.5" r="3.8" />
+    <circle cx="1646.0" cy="455.5" r="3.8" />
+    <circle cx="1663.0" cy="455.5" r="3.8" />
+    <circle cx="1680.0" cy="455.5" r="3.8" />
+    <circle cx="1697.0" cy="455.5" r="3.8" />
+    <circle cx="1629.0" cy="472.5" r="3.8" />
+    <circle cx="1646.0" cy="472.5" r="3.8" />
+    <circle cx="1663.0" cy="472.5" r="3.8" />
+    <circle cx="1680.0" cy="472.5" r="3.8" />
+    <circle cx="1697.0" cy="472.5" r="3.8" />
+    <circle cx="1629.0" cy="489.5" r="3.8" />
+    <circle cx="1646.0" cy="489.5" r="3.8" />
+    <circle cx="1663.0" cy="489.5" r="3.8" />
+    <circle cx="1680.0" cy="489.5" r="3.8" />
+    <circle cx="1697.0" cy="489.5" r="3.8" />
+    <circle cx="1629.0" cy="506.5" r="3.8" />
+    <circle cx="1646.0" cy="506.5" r="3.8" />
+    <circle cx="1663.0" cy="506.5" r="3.8" />
+    <circle cx="1680.0" cy="506.5" r="3.8" />
+    <circle cx="1697.0" cy="506.5" r="3.8" />
+    <circle cx="1629.0" cy="581.5" r="3.8" />
+    <circle cx="1646.0" cy="581.5" r="3.8" />
+    <circle cx="1663.0" cy="581.5" r="3.8" />
+    <circle cx="1680.0" cy="581.5" r="3.8" />
+    <circle cx="1697.0" cy="581.5" r="3.8" />
+    <circle cx="1629.0" cy="599.0" r="3.8" />
+    <circle cx="1646.0" cy="599.0" r="3.8" />
+    <circle cx="1663.0" cy="599.0" r="3.8" />
+    <circle cx="1680.0" cy="599.0" r="3.8" />
+    <circle cx="1697.0" cy="599.0" r="3.8" />
+    <circle cx="1629.0" cy="616.5" r="3.8" />
+    <circle cx="1646.0" cy="616.5" r="3.8" />
+    <circle cx="1663.0" cy="616.5" r="3.8" />
+    <circle cx="1680.0" cy="616.5" r="3.8" />
+    <circle cx="1697.0" cy="616.5" r="3.8" />
+    <circle cx="1629.0" cy="633.5" r="3.8" />
+    <circle cx="1646.0" cy="633.5" r="3.8" />
+    <circle cx="1663.0" cy="633.5" r="3.8" />
+    <circle cx="1680.0" cy="633.5" r="3.8" />
+    <circle cx="1697.0" cy="633.5" r="3.8" />
+    <circle cx="1629.0" cy="650.5" r="3.8" />
+    <circle cx="1646.0" cy="650.5" r="3.8" />
+    <circle cx="1663.0" cy="650.5" r="3.8" />
+    <circle cx="1680.0" cy="650.5" r="3.8" />
+    <circle cx="1697.0" cy="650.5" r="3.8" />
+    <circle cx="1629.0" cy="727.0" r="3.8" />
+    <circle cx="1646.0" cy="727.0" r="3.8" />
+    <circle cx="1663.0" cy="727.0" r="3.8" />
+    <circle cx="1680.0" cy="727.0" r="3.8" />
+    <circle cx="1697.0" cy="727.0" r="3.8" />
+    <circle cx="1629.0" cy="744.0" r="3.8" />
+    <circle cx="1646.0" cy="744.0" r="3.8" />
+    <circle cx="1663.0" cy="744.0" r="3.8" />
+    <circle cx="1680.0" cy="744.0" r="3.8" />
+    <circle cx="1697.0" cy="744.0" r="3.8" />
+    <circle cx="1629.0" cy="761.0" r="3.8" />
+    <circle cx="1646.0" cy="761.0" r="3.8" />
+    <circle cx="1663.0" cy="761.0" r="3.8" />
+    <circle cx="1680.0" cy="761.0" r="3.8" />
+    <circle cx="1697.0" cy="761.0" r="3.8" />
+    <circle cx="1629.0" cy="778.0" r="3.8" />
+    <circle cx="1646.0" cy="778.0" r="3.8" />
+    <circle cx="1663.0" cy="778.0" r="3.8" />
+    <circle cx="1680.0" cy="778.0" r="3.8" />
+    <circle cx="1697.0" cy="778.0" r="3.8" />
+    <circle cx="1629.0" cy="795.0" r="3.8" />
+    <circle cx="1646.0" cy="795.0" r="3.8" />
+    <circle cx="1663.0" cy="795.0" r="3.8" />
+    <circle cx="1680.0" cy="795.0" r="3.8" />
+    <circle cx="1697.0" cy="795.0" r="3.8" />
+  </g>
+</svg>
