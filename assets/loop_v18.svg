@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" preserveAspectRatio="none" role="img" aria-labelledby="title desc">
+<title id="title">멀티 에이전틱 자율 진화 공장</title><desc id="desc">경영, 센서 관제, 로봇 PLC 제어와 자율 학습의 네 층과 순환을 완료와 추진 예정으로 구분한 개념도</desc>
+<style>
+text{font-family:Paperlogy,'Malgun Gothic',sans-serif}.heading{font-size:30px;font-weight:800}.detail{font-size:23px;font-weight:600}.state{font-size:23px;font-weight:800}.signal{fill:none;stroke:#76b900;stroke-width:4;stroke-linecap:round;stroke-dasharray:2 12;animation:flow 2s linear infinite}@keyframes flow{to{stroke-dashoffset:-28}}@media(prefers-reduced-motion:reduce){.signal{animation:none}}@media print{.signal{animation:none}}
+</style>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#76b900"/></marker></defs>
+<rect x="0" y="0" width="1600" height="600" rx="20" fill="#f8fbf5" stroke="#6c9d36" stroke-width="2" stroke-dasharray="10 6"/>
+<text x="32" y="49" class="heading" fill="#264f09">멀티 에이전틱 — 협업으로 만드는 자율 진화 공장</text>
+<rect x="30" y="72" width="1370" height="112" rx="12" fill="#f2f8eb" stroke="#3e750f" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="52" y="112" class="heading" fill="#254c0b">ERP·MES 너머 — 경영 에이전트</text><text x="52" y="153" class="detail" fill="#35552a">생산 · 품질 · 자재 · 경영 에이전트가 계획과 현장 실행을 연결</text><text x="1115" y="112" class="state" fill="#416e1d">2027 추진 예정</text>
+<path id="flow1" class="signal" d="M720 186V203" marker-end="url(#arrow)"/>
+<rect x="30" y="205" width="1370" height="112" rx="12" fill="#285907"/>
+<text x="52" y="245" class="heading" fill="#fff">공정 에이전틱 센서 관제</text><text x="52" y="286" class="detail" fill="#fff">키오스크 · Jetson Orin · 로컬 LLM · 열화상·영상·온습도 센서</text><text x="1115" y="245" class="state" fill="#d7f4ac">현장 실증 완료</text>
+<path id="flow2" class="signal" d="M720 319V336" marker-end="url(#arrow)"/>
+<rect x="30" y="338" width="1370" height="112" rx="12" fill="#f2f8eb" stroke="#3e750f" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="52" y="378" class="heading" fill="#254c0b">공정 로봇 자동화 · PLC 바이브 제어</text><text x="52" y="419" class="detail" fill="#35552a">로봇 공정 협약 완료 · 말로 지시해 로봇·PLC 제어로 연결하는 구상</text><text x="1115" y="378" class="state" fill="#416e1d">2027 추진 예정</text>
+<path id="flow3" class="signal" d="M720 452V469" marker-end="url(#arrow)"/>
+<rect x="30" y="471" width="1370" height="112" rx="12" fill="#f2f8eb" stroke="#3e750f" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="52" y="511" class="heading" fill="#254c0b">자율 학습</text><text x="52" y="552" class="detail" fill="#35552a">YOLO · OCR 첫 모델 완료 → 현장 결과 데이터로 재학습하는 순환</text><text x="1115" y="511" class="state" fill="#416e1d">재학습 추진 예정</text>
+<path id="flow4" class="signal" d="M1405 527 C1548 527 1552 129 1410 129" marker-end="url(#arrow)"/>
+<rect x="1420" y="277" width="150" height="86" rx="10" fill="#17380a"/><text x="1495" y="312" text-anchor="middle" class="detail" fill="#fff">자율 학습</text><text x="1495" y="345" text-anchor="middle" class="detail" fill="#d7f4ac">→ 다시 위로</text>
+</svg>

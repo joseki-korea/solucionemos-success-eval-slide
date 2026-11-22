@@ -1,0 +1,25 @@
+/* Round 39: align the deck grid and improve the print reading size. */
+@media print{#slide-01 .cover-date{right:120px!important;top:80px!important}}
+#slide-02 .ag-body,#slide-03 .ag-body,#slide-08 .ag-body{transform:translateY(-32px)}
+#slide-09 .ag-body{transform:translateY(-64px)}
+#slide-10 .ag-body{transform:translateY(-56px)}
+#slide-11 .ag-body{transform:translateY(-48px)}
+#slide-03 .media-frame{width:100%!important;margin-inline:0!important}
+#slide-05 .p34-products .p34-back img{height:400px;object-position:center top}
+#slide-06 .p35-evidence figure:first-child img{object-position:left center}
+#slide-06 .p35-evidence figure:first-child figcaption{align-self:flex-start;text-align:left}
+#slide-06 .p35-evidence figure:last-child img{object-position:right center}
+#slide-06 .p35-evidence figure:last-child figcaption{align-self:flex-end;text-align:right}
+#slide-06 .p35-evidence figure:last-child{padding-left:16px}
+#slide-06 .p35-disclaimer,#slide-06 .ag-foot,#slide-06 .p35-control>b{font-size:20px!important}
+#slide-06 .eyebrow,#slide-06 .eyebrow span{font-size:20px!important}
+#slide-07 .cards{justify-items:start!important}
+#slide-07 .cards figure{width:100%}
+#slide-07 .cards figure .media-frame{width:min(100%,307px)!important;margin-inline:0!important}
+#slide-12 .events-grid figure:first-child{justify-items:start}
+#slide-12 .events-grid figure:first-child .media-frame{margin-left:0!important}
+#slide-12 .events-grid figure:last-child{justify-items:end}
+#slide-12 .events-grid figure:last-child .media-frame{margin-right:0!important}
+#slide-13 .cards figure{width:100%}
+#slide-13 .cards figure:first-child .media-frame{margin-left:0!important}
+#slide-13 .cards figure:last-child .media-frame{margin-right:0!important}
