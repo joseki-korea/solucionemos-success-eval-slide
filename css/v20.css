@@ -3,8 +3,15 @@
 @font-face{font-family:Paperlogy20;src:url('../assets/fonts_v20/Paperlogy-7Bold.woff2') format('woff2');font-weight:700;font-style:normal}
 @font-face{font-family:Paperlogy20;src:url('../assets/fonts_v20/Paperlogy-8ExtraBold.woff2') format('woff2');font-weight:800;font-style:normal}
 #slide-06 .p35-loop{height:400px}
-#slide-06 .p35-evidence img{height:296px;object-fit:contain;object-position:center!important}
+#slide-06 .p35-evidence img{height:288px;object-fit:contain;object-position:center!important}
 #slide-06 .p35-evidence figcaption{font-size:20px!important}
+#slide-06 .p35-disclaimer{margin-top:8px}
+#slide-02 .vision-definition,#slide-02 .vision-definition b{font-size:20px!important}
+#slide-10 .bar-row small{font-size:20px!important}
+#slide-07 .p20-evidence-note{font-size:18px;line-height:1.2;color:#53604d;margin:0}
+#slide-14 .process-tag{font-size:20px;line-height:1.12;letter-spacing:-.04em;padding:4px}
+#slide-14 .process-legend{font-size:20px;line-height:1.1}
+#slide-14 .process-legend b{padding:4px}
 #slide-06 .p20-loop{position:relative;width:100%;height:400px;flex:none;padding:12px 16px;border:2px dashed #6c9d36;border-radius:20px;background:#f8fbf5;color:#254c0b;font-family:Paperlogy20,Paperlogy,sans-serif}
 #slide-06 .p20-title{font-size:25px;font-weight:800;line-height:1.2;margin:0 0 8px}
 #slide-06 .p20-rows{width:calc(100% - 160px);height:328px;display:grid;grid-template-rows:repeat(4,1fr);gap:8px}
