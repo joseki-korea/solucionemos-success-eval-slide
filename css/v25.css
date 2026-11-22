@@ -1,0 +1,20 @@
+/* Round 49, Update 2: large full-page stock photos below every foreground layer. */
+.ag-slide.v25-stock{isolation:isolate}
+#slide-01.v25-stock{--v25-stock-url:url('../assets/stock/p01_smart_factory_bg.jpg')}
+#slide-03.v25-stock{--v25-stock-url:url('../assets/stock/p03_production_line_bg.jpg')}
+#slide-04.v25-stock{--v25-stock-url:url('../assets/stock/p04_ai_circuit_bg.jpg')}
+#slide-06.v25-stock{--v25-stock-url:url('../assets/stock/p06_ai_circuit_mono_bg.jpg')}
+#slide-14.v25-stock{--v25-stock-url:url('../assets/stock/p14_robot_arms_bg.jpg')}
+#slide-16.v25-stock{--v25-stock-url:url('../assets/stock/p16_smart_factory_bg.jpg')}
+.v25-stock-background{position:absolute;inset:0;z-index:-3;pointer-events:none;background-image:var(--v25-stock-url);background-size:cover;background-position:center;opacity:.10;filter:grayscale(1) sepia(.22) hue-rotate(28deg) saturate(.65);-webkit-mask-image:linear-gradient(100deg,rgba(0,0,0,.30),rgba(0,0,0,.65) 52%,#000);mask-image:linear-gradient(100deg,rgba(0,0,0,.30),rgba(0,0,0,.65) 52%,#000)}
+.is-dark.v25-stock .v25-stock-background{opacity:.18;filter:grayscale(1) sepia(.22) hue-rotate(28deg) saturate(.65) brightness(.85);-webkit-mask-image:linear-gradient(100deg,rgba(0,0,0,.35),rgba(0,0,0,.70) 55%,#000);mask-image:linear-gradient(100deg,rgba(0,0,0,.35),rgba(0,0,0,.70) 55%,#000)}
+#slide-06.v25-stock .v25-stock-background{opacity:.08}
+#slide-14.v25-stock .v25-stock-background{opacity:.09}
+/* Keep a single background language; retain all product/evidence/mocked foregrounds. */
+.v25-stock>.dot-decor,.v25-stock>.ag-waves{display:none!important}
+.ag-slide.v25-stock:before{display:none!important}
+#slide-01.v25-stock>img[src="assets/gen/astra_cover.png"],#slide-16.v25-stock>img[src="assets/gen/carbon_bg_concept.png"]{display:none!important}
+.v25-stock-credit{font-size:20px!important;line-height:1.3;white-space:nowrap}
+.v25-cover-credit{position:absolute;left:120px;bottom:136px;color:var(--on-night-2)}
+.v25-stock .media-frame{background:var(--surface)}
+@media print{.v25-stock-background{-webkit-print-color-adjust:exact;print-color-adjust:exact}.v25-stock-credit{font-size:20px!important}}
