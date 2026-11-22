@@ -1,0 +1,23 @@
+/* Round 41: use the deck's actual web font and make the evidence row larger. */
+@font-face{font-family:Paperlogy20;src:url('../assets/fonts_v20/Paperlogy-4Regular.woff2') format('woff2');font-weight:400;font-style:normal}
+@font-face{font-family:Paperlogy20;src:url('../assets/fonts_v20/Paperlogy-7Bold.woff2') format('woff2');font-weight:700;font-style:normal}
+@font-face{font-family:Paperlogy20;src:url('../assets/fonts_v20/Paperlogy-8ExtraBold.woff2') format('woff2');font-weight:800;font-style:normal}
+#slide-06 .p35-loop{height:400px}
+#slide-06 .p35-evidence img{height:296px;object-fit:contain;object-position:center!important}
+#slide-06 .p35-evidence figcaption{font-size:20px!important}
+#slide-06 .p20-loop{position:relative;width:100%;height:400px;flex:none;padding:12px 16px;border:2px dashed #6c9d36;border-radius:20px;background:#f8fbf5;color:#254c0b;font-family:Paperlogy20,Paperlogy,sans-serif}
+#slide-06 .p20-title{font-size:25px;font-weight:800;line-height:1.2;margin:0 0 8px}
+#slide-06 .p20-rows{width:calc(100% - 160px);height:328px;display:grid;grid-template-rows:repeat(4,1fr);gap:8px}
+#slide-06 .p20-card{position:relative;min-width:0;padding:8px 16px;border:2px dashed #3e750f;border-radius:12px;background:#f2f8eb}
+#slide-06 .p20-card:not(:last-child):after{content:"";position:absolute;left:50%;bottom:-13px;border-left:10px solid transparent;border-right:10px solid transparent;border-top:12px solid #76b900;z-index:2}
+#slide-06 .p20-line{display:flex;justify-content:space-between;align-items:baseline;gap:16px;line-height:1.25}
+#slide-06 .p20-line b{font-size:24px;font-weight:700}
+#slide-06 .p20-line strong{font-size:20px;font-weight:700;white-space:nowrap}
+#slide-06 .p20-card p{font-size:20px;line-height:1.25;margin:2px 0 0}
+#slide-06 .p20-complete{background:#285907;border-color:#285907;color:#fff}
+#slide-06 .p20-return{position:absolute;right:16px;top:55px;width:144px;height:320px}
+#slide-06 .p20-return path:first-child{animation:p20-flow 2s linear infinite}
+#slide-06 .p20-loop-label{position:absolute;right:28px;top:170px;padding:8px;background:#17380a;border-radius:8px;color:#fff;font-size:20px;font-weight:700;line-height:1.25;text-align:center}
+@keyframes p20-flow{to{stroke-dashoffset:-28}}
+@media(prefers-reduced-motion:reduce){#slide-06 .p20-return path:first-child{animation:none}}
+@media print{#slide-06 .p20-return path:first-child{animation:none!important}}
