@@ -1,0 +1,19 @@
+/* Round 50: all stock tone, opacity and gradient are precomposited into opaque JPEG. */
+#slide-01.v26-stock{--v26-stock-url:url('../assets/stock/v26/p01_opaque_bg.jpg')}
+#slide-03.v26-stock{--v26-stock-url:url('../assets/stock/v26/p03_opaque_bg.jpg')}
+#slide-04.v26-stock{--v26-stock-url:url('../assets/stock/v26/p04_opaque_bg.jpg')}
+#slide-06.v26-stock{--v26-stock-url:url('../assets/stock/v26/p06_opaque_bg.jpg')}
+#slide-14.v26-stock{--v26-stock-url:url('../assets/stock/v26/p14_opaque_bg.jpg')}
+#slide-16.v26-stock{--v26-stock-url:url('../assets/stock/v26/p16_opaque_bg.jpg')}
+html body .ag-slide.v26-stock>.v25-stock-background{
+  background-image:var(--v26-stock-url)!important;
+  opacity:1!important;
+  filter:none!important;
+  -webkit-mask:none!important;
+  mask:none!important;
+  z-index:-3;
+  -webkit-print-color-adjust:exact;
+  print-color-adjust:exact;
+}
+/* Restore the original green ribbon above the stock and below the foreground. */
+#slide-01.v26-stock>.ag-waves,#slide-16.v26-stock>.ag-waves{display:block!important;z-index:-1!important}

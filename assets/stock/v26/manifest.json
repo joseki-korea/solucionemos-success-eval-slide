@@ -1,0 +1,152 @@
+[
+  {
+    "page": 1,
+    "source": "../p01_smart_factory_bg.jpg",
+    "source_sha256": "5ddf3a256a3b00ce4f92a38a069c809a098106ed47fa2020b9b586f24f25ee43",
+    "output": "p01_opaque_bg.jpg",
+    "output_sha256": "f3b2dc4dfac30916b7fce1023a9a1505d492394076b7c809a71caea0f59910d4",
+    "base_rgb": [
+      11,
+      12,
+      10
+    ],
+    "max_equivalent_opacity": 0.26,
+    "tone": "grayscale colorized to (3,6,2)-(219,228,210)",
+    "horizontal_alpha_factor": [
+      0.5,
+      1.0
+    ],
+    "header_alpha_factor": [
+      0.45,
+      1.0
+    ],
+    "jpeg_quality": 88,
+    "mode": "RGB opaque, no alpha, no mask",
+    "bytes": 118719
+  },
+  {
+    "page": 3,
+    "source": "../p03_production_line_bg.jpg",
+    "source_sha256": "ed0203b2d87fcaa89e135cb4cb38b893037fb3e2272884f21c4d55ed380ec19d",
+    "output": "p03_opaque_bg.jpg",
+    "output_sha256": "fb8c2f3c19f8e0d893173c4fb59fcd75323751fc5bc596e6b6104c1328d32435",
+    "base_rgb": [
+      255,
+      255,
+      255
+    ],
+    "max_equivalent_opacity": 0.14,
+    "tone": "grayscale colorized to (3,6,2)-(219,228,210)",
+    "horizontal_alpha_factor": [
+      0.5,
+      1.0
+    ],
+    "header_alpha_factor": [
+      0.45,
+      1.0
+    ],
+    "jpeg_quality": 88,
+    "mode": "RGB opaque, no alpha, no mask",
+    "bytes": 84703
+  },
+  {
+    "page": 4,
+    "source": "../p04_ai_circuit_bg.jpg",
+    "source_sha256": "cb07e87277f5885b51ddae20f3b8a1ee89187f77821454a5360f8071202e9878",
+    "output": "p04_opaque_bg.jpg",
+    "output_sha256": "e7c1c84a9ee552deeccb160d8843716d3ecddab3d8fe6b83db4107b8608512f2",
+    "base_rgb": [
+      11,
+      12,
+      10
+    ],
+    "max_equivalent_opacity": 0.24,
+    "tone": "grayscale colorized to (3,6,2)-(219,228,210)",
+    "horizontal_alpha_factor": [
+      0.5,
+      1.0
+    ],
+    "header_alpha_factor": [
+      0.45,
+      1.0
+    ],
+    "jpeg_quality": 88,
+    "mode": "RGB opaque, no alpha, no mask",
+    "bytes": 37950
+  },
+  {
+    "page": 6,
+    "source": "../p06_ai_circuit_mono_bg.jpg",
+    "source_sha256": "81e919e5cf75abe32ca9a521ee00d0d3bd388360b3c56b5f7ace4ec7fc804f0e",
+    "output": "p06_opaque_bg.jpg",
+    "output_sha256": "f8a743d3cff3cb31174f3cab3c116cdc21c566e21ccad68192f5f975226deba1",
+    "base_rgb": [
+      255,
+      255,
+      255
+    ],
+    "max_equivalent_opacity": 0.12,
+    "tone": "grayscale colorized to (3,6,2)-(219,228,210)",
+    "horizontal_alpha_factor": [
+      0.5,
+      1.0
+    ],
+    "header_alpha_factor": [
+      0.45,
+      1.0
+    ],
+    "jpeg_quality": 88,
+    "mode": "RGB opaque, no alpha, no mask",
+    "bytes": 116813
+  },
+  {
+    "page": 14,
+    "source": "../p14_robot_arms_bg.jpg",
+    "source_sha256": "1dd8002891666d54e3113189308012367cc8b1de8f837f1340bd0f1c008e07a6",
+    "output": "p14_opaque_bg.jpg",
+    "output_sha256": "79e39c95220f2e8f92e085a549ee6f40c9229a7f71ffc18a18cbbbbd7c23f8f8",
+    "base_rgb": [
+      255,
+      255,
+      255
+    ],
+    "max_equivalent_opacity": 0.12,
+    "tone": "grayscale colorized to (3,6,2)-(219,228,210)",
+    "horizontal_alpha_factor": [
+      0.5,
+      1.0
+    ],
+    "header_alpha_factor": [
+      0.45,
+      1.0
+    ],
+    "jpeg_quality": 88,
+    "mode": "RGB opaque, no alpha, no mask",
+    "bytes": 68525
+  },
+  {
+    "page": 16,
+    "source": "../p16_smart_factory_bg.jpg",
+    "source_sha256": "5ddf3a256a3b00ce4f92a38a069c809a098106ed47fa2020b9b586f24f25ee43",
+    "output": "p16_opaque_bg.jpg",
+    "output_sha256": "f3b2dc4dfac30916b7fce1023a9a1505d492394076b7c809a71caea0f59910d4",
+    "base_rgb": [
+      11,
+      12,
+      10
+    ],
+    "max_equivalent_opacity": 0.26,
+    "tone": "grayscale colorized to (3,6,2)-(219,228,210)",
+    "horizontal_alpha_factor": [
+      0.5,
+      1.0
+    ],
+    "header_alpha_factor": [
+      0.45,
+      1.0
+    ],
+    "jpeg_quality": 88,
+    "mode": "RGB opaque, no alpha, no mask",
+    "bytes": 118719
+  }
+]
