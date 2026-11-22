@@ -1,0 +1,9 @@
+/* Round 48: cross-review wording and targeted layout fixes only. */
+#slide-02 .ag-body{justify-content:flex-start!important;transform:none;padding-top:24px}
+#slide-10 .v24-revenue-scope{display:block;font-size:20px;font-weight:500;line-height:1.3;color:var(--ink-2);margin-top:8px}
+#slide-10 .v24-patent-period{display:block;font-size:20px;font-weight:500;line-height:1.3;margin-bottom:8px}
+#slide-15 .v24-local-plan{display:block;font-size:20px!important;font-weight:400;line-height:1.25;color:var(--ink-2);margin-top:8px;white-space:nowrap}
+#slide-06 .p35-evidence .v24-original-photo{padding-bottom:29px}
+#slide-06 .v24-photo-frame{position:relative;width:416px;max-width:100%;height:312px;flex:none}
+#slide-06 .v24-photo-frame img{width:100%;height:312px;object-fit:contain;object-position:center!important}
+#slide-06 .p35-evidence .v24-photo-frame figcaption{position:absolute;left:0;right:0;bottom:0;z-index:2;margin:0;padding:8px 16px;background:rgba(0,0,0,.62);color:#fff;font-size:20px!important;font-weight:700;line-height:1.25;text-align:left!important}
