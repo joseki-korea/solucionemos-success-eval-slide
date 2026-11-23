@@ -1,0 +1,25 @@
+/* Round 51: one dominant core line; reuse existing labels as keyword emphasis. */
+.ag-slide.v27-page .ag-head{gap:8px!important}
+.ag-slide.v27-page .v27-core{font-size:56px!important;line-height:1.12!important;letter-spacing:-.025em;white-space:nowrap;font-weight:800}
+.v27-page .v27-key,.v27-page .v27-inline-key{font-weight:800;color:#2c5a00}
+.v27-page.is-dark .v27-key,.v27-page.is-dark .v27-inline-key{color:var(--accent-light)}
+#slide-02 .v27-key{font-size:29px!important}
+#slide-03 .v27-key{font-size:32px!important}
+#slide-04.v27-page .v27-core{font-size:64px!important;line-height:1.12!important;max-width:900px}
+#slide-04 .hero-lead{font-size:28px;line-height:1.4}
+#slide-05 .p34-legend .v27-inline-key{font-size:23px}
+#slide-06 .p20-complete .v27-key{color:#fff}
+#slide-06 .p20-line .v27-key{font-weight:800}
+#slide-07 .layers .v27-key{font-size:29px}
+#slide-09.v27-page .v27-core{font-size:64px!important}
+#slide-09 .stat-value{font-size:56px!important}
+#slide-09 .stat-value span{font-size:28px!important}
+#slide-11 .ag-body>table tbody tr:nth-child(1)>th,
+#slide-11 .ag-body>table tbody tr:nth-child(2)>th,
+#slide-11 .ag-body>table tbody tr:nth-child(4)>th,
+#slide-11 .ag-body>table tbody tr:nth-child(6)>th{font-weight:800;color:#2c5a00}
+#slide-12 .caption .v27-inline-key{font-size:20px}
+#slide-13 .v23-ip-topline .v27-inline-key{font-size:22px}
+#slide-16.v27-page .v27-core{font-size:64px!important}
+#slide-16.v27-page .ag-body .card p{white-space:normal;font-size:23px!important;line-height:1.35}
+#slide-16.v27-page .ag-body .card p>b{color:var(--accent-light)}
