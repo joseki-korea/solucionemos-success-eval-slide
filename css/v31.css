@@ -1,0 +1,70 @@
+#slide-12-2 .dot-decor {
+  right: 0;
+  width: 128px;
+  background-size: 168px;
+  background-position: left center;
+}
+
+#slide-12-2 .v31-lecture-body {
+  justify-content: flex-start;
+}
+
+.v31-lecture-photos {
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px 32px;
+  width: min(100%, 848px);
+}
+
+.v31-lecture-photos figure {
+  margin: 0;
+  width: 100%;
+}
+
+.v31-lecture-photos img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.v31-lecture-photos figcaption {
+  padding-top: 4px;
+  color: var(--ink-3);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+@media screen and (max-width: 839px) {
+  .reading #slide-12-2 {
+    padding: 32px 24px 72px !important;
+  }
+
+  .reading #slide-12-2 :is(.eyebrow, .v28-chapter, .v28-core) {
+    white-space: normal;
+  }
+
+  .reading #slide-12-2 .v28-chapter {
+    font-size: 32px !important;
+  }
+
+  .reading #slide-12-2 .v28-core {
+    font-size: 26px !important;
+  }
+
+  .reading #slide-12-2 .ag-foot {
+    left: 24px;
+    right: 24px;
+  }
+
+  .reading .v31-lecture-photos {
+    column-gap: 12px;
+  }
+
+  .reading .v31-lecture-photos figcaption {
+    font-size: 16px;
+  }
+}
+

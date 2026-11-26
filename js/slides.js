@@ -26,6 +26,8 @@
   const previous = $('#previous');
   const next = $('#next');
   const indices = new Map(slides.map((slide, i) => [slide.id, i]));
+  const pageLabels = slides.map(slide => slide.id.slice('slide-'.length));
+  const lastPageLabel = pageLabels.at(-1);
 
   // 저장 불가·file:// 환경도 동작하도록 실패를 허용한다.
   try { motionOff = prefersReduced.matches || localStorage.getItem('sol-motion-off') === 'true'; } catch (_) {}
@@ -50,7 +52,7 @@
   function go(index, options = {}) {
     current = Math.max(0, Math.min(slides.length - 1, Number(index) || 0));
     applyVisibility();
-    counter.textContent = `${current + 1} / ${slides.length}`;
+    counter.textContent = `${pageLabels[current].replace(/^0/, "")} / ${slides.length}`;
     progress.max = slides.length;
     progress.value = current + 1;
     progress.setAttribute('aria-label', `전체 ${slides.length}장 중 ${current + 1}장`);
@@ -61,7 +63,7 @@
     }
     if (isReading() && options.scroll !== false) slides[current].scrollIntoView({block: 'start', behavior: 'instant'});
     if (options.focus) $('h1,h2', slides[current])?.focus({preventScroll: true});
-    if (!options.silent) announce(`${current + 1}장. ${pageTitle(current)}`);
+    if (!options.silent) announce(`${pageLabels[current]}장. ${pageTitle(current)}`);
   }
   function setMode() {
     root.classList.toggle('reading', manualReading || narrow.matches);
@@ -105,7 +107,7 @@
       const item = document.createElement('li');
       const button = document.createElement('button');
       button.type = 'button';
-      button.textContent = `${String(i + 1).padStart(2, '0')}  ${pageTitle(i)}`;
+      button.textContent = `${pageLabels[i]}  ${pageTitle(i)}`;
       if (i === current) button.setAttribute('aria-current', 'true');
       button.addEventListener('click', () => { go(i); focusOnClose = i; closeDialog(); });
       item.append(button); list.append(item);
@@ -127,7 +129,7 @@
     });
   }
   function notes() {
-    openDialog(`${current + 1}장 발표자 메모`, node => {
+    openDialog(`${pageLabels[current]}장 발표자 메모`, node => {
       const p = document.createElement('p'); p.className = 'speaker-content';
       p.textContent = $('.notes', slides[current])?.textContent.trim() || '이 장에는 발표자 메모가 없습니다.';
       node.append(p);
@@ -199,7 +201,8 @@
     slide.setAttribute('role', 'region');
     const heading = $('h1,h2', slide);
     if (heading) { heading.tabIndex = -1; if (!heading.id) heading.id = slide.id + '-title'; slide.setAttribute('aria-labelledby', heading.id); }
-    $$('.ag-page', slide).forEach(page => { page.textContent = `${String(i + 1).padStart(2, '0')} / ${slides.length}`; });
+    const label = pageLabels[i];
+    $$('.ag-page', slide).forEach(page => { page.textContent = label.includes('-') ? label : `${label} / ${lastPageLabel}`; });
   });
   previous.addEventListener('click', () => go(current - 1));
   next.addEventListener('click', () => go(current + 1));
@@ -262,6 +265,7 @@
   // 브라우저 콘솔에서 호출하는 수동 검수 보조. 시각 검수를 대체하지 않는다.
   window.SlideDeck = Object.freeze({
     go, count: slides.length,
+    pageLabel: index => pageLabels[index],
     current: () => current + 1,
     checkOverflow: () => slides.filter(slide => slide.offsetParent !== null && (slide.scrollHeight > slide.clientHeight + 2 || slide.scrollWidth > slide.clientWidth + 2)).map(slide => slide.id)
   });
