@@ -59,9 +59,49 @@
 #slide-14.v28-page .process-stage{top:300px;height:684px}
 #slide-14.v28-page .process-picture{height:684px}
 #slide-14.v28-page .process-legend{top:300px}
-#slide-15.v28-page .ag-body>div:first-child{grid-template-columns:176px 1fr!important}
-#slide-15.v28-page .ag-body>div:first-child .media-frame{height:120px!important}
-#slide-15.v28-page .ag-body>table th,#slide-15.v28-page .ag-body>table td{padding:8px!important}
+#slide-15.v28-page {
+  gap: 12px !important;
+  padding-top: 64px !important;
+}
+#slide-15 .ag-body {
+  justify-content: flex-start !important;
+  gap: 8px !important;
+}
+#slide-15 .commercialization-evidence {
+  display: grid;
+  grid-template-columns: min(500px, 46%) minmax(0, 1fr);
+  gap: 32px;
+  align-items: center;
+}
+#slide-15 .commercialization-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 25 / 12;
+  object-fit: cover;
+  object-position: center 27%;
+}
+#slide-15 .commercialization-photo figcaption {
+  margin-top: 6px;
+  color: var(--ink-2);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+#slide-15 .commercialization-agreement {
+  display: grid;
+  gap: 12px;
+  font-size: 32px;
+  line-height: 1.25;
+}
+#slide-15.v28-page .ag-body > table :is(th, td) {
+  padding: 2px 8px !important;
+}
+@media screen and (max-width: 839px) {
+  .reading #slide-15 .commercialization-evidence {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+}
 #slide-15.v28-page .v23-year-targets p{padding:10px 24px;font-size:24px}
 #slide-15.v28-page .v23-year-targets b{margin-bottom:4px}
 #slide-16.v28-page .ag-body .card{min-height:92px;padding:18px 24px!important}

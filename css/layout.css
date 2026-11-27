@@ -31,7 +31,6 @@
 
 .process-picture{height:560px;overflow:hidden}.process-picture img{width:min(100%,408px);height:auto;max-height:100%;object-fit:contain}
 .ag-slide .cover-bottom{position:absolute!important;display:flex!important;left:120px!important;right:120px!important;bottom:40px!important;top:auto!important;margin:0!important}
-#slide-15 .ag-body{justify-content:flex-start!important;gap:8px!important}#slide-15 .ag-body>div:first-child{grid-template-columns:208px 1fr!important}
 
 /* 28차: dark hero and 2D part callouts, retaining the 12-column body grid. */
 .ag-head .eyebrow:after{content:"";height:1px;background:currentColor;opacity:.25;flex:1;min-width:24px}

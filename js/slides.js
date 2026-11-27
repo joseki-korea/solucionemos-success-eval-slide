@@ -27,7 +27,7 @@
   const next = $('#next');
   const indices = new Map(slides.map((slide, i) => [slide.id, i]));
   const pageLabels = slides.map(slide => slide.id.slice('slide-'.length));
-  const lastPageLabel = pageLabels.at(-1);
+  const pageNumbers = slides.map((_, i) => `${i + 1} / ${slides.length}`);
 
   // 저장 불가·file:// 환경도 동작하도록 실패를 허용한다.
   try { motionOff = prefersReduced.matches || localStorage.getItem('sol-motion-off') === 'true'; } catch (_) {}
@@ -52,7 +52,7 @@
   function go(index, options = {}) {
     current = Math.max(0, Math.min(slides.length - 1, Number(index) || 0));
     applyVisibility();
-    counter.textContent = `${pageLabels[current].replace(/^0/, "")} / ${slides.length}`;
+    counter.textContent = pageNumbers[current];
     progress.max = slides.length;
     progress.value = current + 1;
     progress.setAttribute('aria-label', `전체 ${slides.length}장 중 ${current + 1}장`);
@@ -201,8 +201,7 @@
     slide.setAttribute('role', 'region');
     const heading = $('h1,h2', slide);
     if (heading) { heading.tabIndex = -1; if (!heading.id) heading.id = slide.id + '-title'; slide.setAttribute('aria-labelledby', heading.id); }
-    const label = pageLabels[i];
-    $$('.ag-page', slide).forEach(page => { page.textContent = label.includes('-') ? label : `${label} / ${lastPageLabel}`; });
+    $$('.ag-page', slide).forEach(page => { page.textContent = pageNumbers[i]; });
   });
   previous.addEventListener('click', () => go(current - 1));
   next.addEventListener('click', () => go(current + 1));
