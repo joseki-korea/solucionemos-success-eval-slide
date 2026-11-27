@@ -69,8 +69,8 @@
 }
 #slide-15 .commercialization-evidence {
   display: grid;
-  grid-template-columns: min(500px, 46%) minmax(0, 1fr);
-  gap: 32px;
+  grid-template-columns: repeat(2, min(500px, 30%)) minmax(0, 1fr);
+  gap: 24px;
   align-items: center;
 }
 #slide-15 .commercialization-photo img {
@@ -79,6 +79,9 @@
   aspect-ratio: 25 / 12;
   object-fit: cover;
   object-position: center 27%;
+}
+#slide-15 .commercialization-robot-photo img {
+  object-position: center 46%;
 }
 #slide-15 .commercialization-photo figcaption {
   margin-top: 6px;
@@ -96,10 +99,14 @@
 #slide-15.v28-page .ag-body > table :is(th, td) {
   padding: 2px 8px !important;
 }
-@media screen and (max-width: 839px) {
+@media screen {
   .reading #slide-15 .commercialization-evidence {
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 16px;
+    align-items: start;
+  }
+  .reading #slide-15 .commercialization-agreement {
+    grid-column: 1 / -1;
   }
 }
 #slide-15.v28-page .v23-year-targets p{padding:10px 24px;font-size:24px}
